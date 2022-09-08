@@ -7,8 +7,8 @@ type MessageBoxProps = {
 
 export const MessageBox:FC<MessageBoxProps> =({message})=>{
   return(
-    <div className={s.messageBox}>
+    <p className={s.messageBox}>
       {message}
-    </div>
+    </p>
   )
 }

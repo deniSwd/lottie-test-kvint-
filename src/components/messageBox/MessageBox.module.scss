@@ -1,3 +1,13 @@
-.messageBox{
-
+.messageBox {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 250px;
+  padding: 0 20px;
+  background-color: #3e9d3e;
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  white-space: pre-line;
+  box-shadow: 10px 10px 15px 0 rgba(34, 60, 80, 0.5);
 }
