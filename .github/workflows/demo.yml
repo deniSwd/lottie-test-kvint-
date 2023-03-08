@@ -8,5 +8,5 @@ jobs:
       run: echo Hello workflow!!!
     - name: print few lines
       run: | 
-       first line
-       second line
+       echo first line
+       echo second line
