@@ -6,3 +6,7 @@ jobs:
   steps:
     - name: print Hello!
       run: echo Hello workflow!!!
+    - name: print few lines
+      run: | 
+       first line
+       second line
