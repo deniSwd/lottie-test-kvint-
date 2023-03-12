@@ -10,3 +10,8 @@ jobs:
       run: | 
        echo first line
        echo second line
+    - name: print few lines
+      run: | 
+       echo hello!
+       echo I'am learning ci/cd
+
