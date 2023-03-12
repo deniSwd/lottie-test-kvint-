@@ -13,5 +13,5 @@ jobs:
     - name: print few lines
       run: | 
        echo hello!
-       echo I'am learning ci/cd
+       echo Iam learning ci/cd
 
