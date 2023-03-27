@@ -43,7 +43,7 @@ export const App: FC = () => {
         <Lottie animationData={initialize} loop className={s.preloader} />}
       <Transition timeout={duration} in={displayMessage}>
         {state => <MessageBox style={transitionStyles[state]}
-                              message={'Привет!\nЧем могу помочь?'} />}
+                              message={'Привет!!!\nЧем могу помочь?'} />}
       </Transition>
     </div>
   )
